@@ -2,11 +2,9 @@ import os
 
 HEALTH_INTEVAL_TIME = 60
 
-HOST= "127.0.0.1" 
-#os.environ.get("WEHA_APP_HOST")
+HOST= os.environ.get("WEHA_APP_HOST")
 
-PORT= "8000"
-#os.environ.get("WEHA_APP_PORT")
+PORT= os.environ.get("WEHA_APP_PORT")
 
 MANAGER_ADDRESS = os.environ.get("WEHA_API_HOST")
 

@@ -26,6 +26,6 @@ MF_USERNAME = os.environ.get("WEHA_API_USERNAME")
 
 MF_PASSWORD = os.environ.get("WEHA_API_PASSWORD")
 
-INSTALLED_SERVICES = ('calculator.AddService',)
+INSTALLED_SERVICES = ('calculator.AddService','calculator.MultService')
 
 NO_THREADING = False
